@@ -1,10 +1,15 @@
 
 
 {
+  "sudo": false",
   "language": "python",
   "python": "2.7", "3.5",
   "before_install": [
+    "cd ~/Desktop/virENV"
+    "source py35_env/bin/activate"
+    "python --version"
     "pip install --upgrade pip"
+    # "sudo apt-get update"  - cant use this line bc it requires sudo. can we set sudo to null?
   ],
   "install": [
     "pip install autopep8",
