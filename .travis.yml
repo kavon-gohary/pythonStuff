@@ -5,9 +5,9 @@
   "language": "python",
   "python": "3.5",
   "before_install": [
-    "cd ~/Desktop/virENV",
-    "source py35_env/bin/activate",
-    "python --version",
+    # "cd ~/Desktop/virENV",                    #these commands dont make sense bc travis is building on a VM, it is in no way inside my computer
+    # "source py35_env/bin/activate",
+    #"python --version",                        #scare to add this in case build breaks
     "pip install --upgrade pip"
     # "sudo apt-get update"  - cant use this line bc it requires sudo. can we set sudo to null?
   ],
