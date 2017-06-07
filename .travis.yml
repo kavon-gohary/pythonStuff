@@ -21,6 +21,6 @@
   "script": [
   "python unitTest.py"
   ],
-  # "group": "stable",
-  # "os": "linux"
+  "group": "stable",
+  "os": "linux"
 }
